@@ -1,0 +1,52 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Vladislav Lapin — Infrastructure and Platform Engineer</title>
+  <desc id="desc">A dark technical banner with a network motif and violet-cyan highlights.</desc>
+  <defs>
+    <linearGradient id="bg" x1="80" y1="20" x2="1120" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#061621"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="78" x2="725" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1030 85) rotate(139) scale(430 300)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0891B2" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0891B2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.055"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+
+  <g opacity="0.8">
+    <path d="M842 92L962 54L1088 112L1050 248L908 292L798 210L842 92Z" stroke="#22D3EE" stroke-opacity="0.26"/>
+    <path d="M842 92L908 292M962 54L1050 248M1088 112L798 210M842 92L1050 248M962 54L798 210M1088 112L908 292" stroke="#A78BFA" stroke-opacity="0.12"/>
+    <circle cx="842" cy="92" r="7" fill="#A78BFA"/>
+    <circle cx="962" cy="54" r="5" fill="#22D3EE"/>
+    <circle cx="1088" cy="112" r="8" fill="#A78BFA"/>
+    <circle cx="1050" cy="248" r="6" fill="#22D3EE"/>
+    <circle cx="908" cy="292" r="8" fill="#A78BFA"/>
+    <circle cx="798" cy="210" r="5" fill="#22D3EE"/>
+    <circle cx="944" cy="173" r="24" fill="#22D3EE" fill-opacity="0.12" filter="url(#soft)"/>
+    <circle cx="944" cy="173" r="9" fill="#22D3EE"/>
+  </g>
+
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="88" y="92" fill="#94A3B8" font-size="18" font-weight="600" letter-spacing="4">HELLO, I'M</text>
+    <text x="84" y="171" fill="url(#accent)" font-size="67" font-weight="750" letter-spacing="-2">Vladislav Lapin</text>
+    <text x="88" y="219" fill="#E2E8F0" font-size="25" font-weight="520">Infrastructure &amp; Platform Engineer</text>
+    <text x="88" y="270" fill="#94A3B8" font-size="18" letter-spacing="0.5">KUBERNETES  ·  CI/CD  ·  OBSERVABILITY  ·  AUTOMATION</text>
+    <rect x="88" y="303" width="176" height="3" rx="1.5" fill="url(#accent)"/>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="358" rx="23" stroke="#A78BFA" stroke-opacity="0.16" stroke-width="2"/>
+</svg>
