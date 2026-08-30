@@ -1,0 +1,66 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-profile-stats.yml"
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@e856fc8de9d7729b463c468911e232cfbdc3d55e # v2.0.2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true&theme=transparent&title_color=7c3aed&icon_color=06b6d4&text_color=94a3b8
+          path: assets/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Upload generated card
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: profile-stats
+          path: assets/stats.svg
+          if-no-files-found: error
+          retention-days: 1
+
+  commit:
+    needs: generate
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Download generated card
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5
+        with:
+          name: profile-stats
+          path: assets
+
+      - name: Commit updated card
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg
+          git diff --cached --quiet || git commit -m "Update profile stats"
+          git push
