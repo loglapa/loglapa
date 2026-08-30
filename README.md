@@ -51,7 +51,7 @@ My public repositories currently reflect what I am studying and testing: the Gra
 ## GitHub activity
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=loglapa&show_icons=true&hide_border=true&theme=transparent&title_color=7c3aed&icon_color=06b6d4&text_color=94a3b8" alt="Vladislav's GitHub stats" />
+  <img height="170" src="./assets/stats.svg" alt="Vladislav's GitHub stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=loglapa&hide_border=true&background=00000000&ring=7c3aed&fire=06b6d4&currStreakLabel=7c3aed&sideLabels=94a3b8&dates=64748b&currStreakNum=94a3b8&sideNums=94a3b8" alt="Vladislav's GitHub streak" />
 </p>
 
