@@ -9,44 +9,45 @@
 
 ## Hi, I'm Vladislav 👋
 
-I build and operate infrastructure that stays predictable under change: CI/CD pipelines, Kubernetes workloads, observability stacks, DNS, TLS, and CDN automation.
+I design, deploy, and operate **Kubernetes platforms** across bare metal, virtual machines, and orchestrated environments. I also run **blockchain node infrastructure** on bare metal and in containerized configurations.
 
-Most of my work lives where **platform engineering**, **SRE**, and **automation** overlap. I enjoy turning fragile runbooks into repeatable pipelines, tracing failures across systems, and making complex operations boring—in the best possible way.
+My work covers the full operational lifecycle: architecture, rollout, upgrades, storage and network tuning, observability, incident response, and delivery automation. I like systems that remain understandable under pressure and routine operations that are safe to repeat.
 
+- ☸️ Building and operating **Kubernetes clusters**, workloads, and supporting platform services
+- ⛓️ Running **blockchain nodes** in different roles, topologies, and deployment configurations
+- 🔄 Planning upgrades, migrations, recovery procedures, and zero-surprise maintenance
+- 📈 Engineering observability with **Grafana, Prometheus, VictoriaMetrics, and alerting**
 - 🔧 Automating infrastructure and delivery with **GitLab CI/CD, Ansible, Bash, and containers**
-- ☸️ Operating **Kubernetes** workloads and the services around them
-- 📈 Working with **Grafana, Prometheus, VictoriaMetrics, and alerting**
-- 🌐 Building reliable **DNS, TLS certificate, CDN, and reverse-proxy** workflows
-- ⛓️ Exploring **distributed systems and blockchain node infrastructure**
+- 🌐 Supporting production networking with **NGINX, DNS, TLS, and Cloudflare**
 - 🤖 Using AI-assisted engineering to shorten the path from incident to durable fix
 
 ## Toolbox
 
 <p>
-  <img src="https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
   <img src="https://img.shields.io/badge/Kubernetes-111827?style=flat-square&logo=kubernetes&logoColor=326CE5" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
   <img src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitLab_CI-111827?style=flat-square&logo=gitlab&logoColor=FC6D26" alt="GitLab CI" />
   <img src="https://img.shields.io/badge/Ansible-111827?style=flat-square&logo=ansible&logoColor=EE0000" alt="Ansible" />
+  <img src="https://img.shields.io/badge/GitLab_CI-111827?style=flat-square&logo=gitlab&logoColor=FC6D26" alt="GitLab CI" />
   <img src="https://img.shields.io/badge/Bash-111827?style=flat-square&logo=gnubash&logoColor=4EAA25" alt="Bash" />
   <img src="https://img.shields.io/badge/Go-111827?style=flat-square&logo=go&logoColor=00ADD8" alt="Go" />
-  <img src="https://img.shields.io/badge/NGINX-111827?style=flat-square&logo=nginx&logoColor=009639" alt="NGINX" />
   <img src="https://img.shields.io/badge/Grafana-111827?style=flat-square&logo=grafana&logoColor=F46800" alt="Grafana" />
   <img src="https://img.shields.io/badge/Prometheus-111827?style=flat-square&logo=prometheus&logoColor=E6522C" alt="Prometheus" />
   <img src="https://img.shields.io/badge/VictoriaMetrics-111827?style=flat-square&logo=victoriametrics&logoColor=22ADF6" alt="VictoriaMetrics" />
-  <img src="https://img.shields.io/badge/Yandex_Cloud-111827?style=flat-square&logo=yandexcloud&logoColor=5282FF" alt="Yandex Cloud" />
+  <img src="https://img.shields.io/badge/NGINX-111827?style=flat-square&logo=nginx&logoColor=009639" alt="NGINX" />
+  <img src="https://img.shields.io/badge/Cloudflare-111827?style=flat-square&logo=cloudflare&logoColor=F38020" alt="Cloudflare" />
 </p>
 
-## Current interests
+## Current focus
 
 ```text
-reliable delivery  ──  observable systems  ──  automated operations
-        │                       │                       │
-    GitLab CI              metrics & alerts       DNS / TLS / CDN
-    containers             Grafana stack          node operations
+Kubernetes platforms  ──  blockchain infrastructure  ──  observability
+         │                           │                         │
+ cluster lifecycle            node operations           metrics & alerts
+ rollouts & upgrades       multi-role topologies       incident response
 ```
 
-My public repositories currently reflect what I am studying and testing: the Grafana observability ecosystem, high-performance telemetry, and node software for distributed networks.
+My public repositories reflect current hands-on work with node software and tooling across ecosystems such as **Aztec, Celestia, and XDC**, alongside the **Grafana and Prometheus** observability stack.
 
 ## GitHub activity
 
