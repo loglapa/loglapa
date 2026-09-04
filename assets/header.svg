@@ -44,7 +44,7 @@
     <text x="88" y="92" fill="#94A3B8" font-size="18" font-weight="600" letter-spacing="4">HELLO, I'M</text>
     <text x="84" y="171" fill="url(#accent)" font-size="67" font-weight="750" letter-spacing="-2">Vladislav Lapin</text>
     <text x="88" y="219" fill="#E2E8F0" font-size="25" font-weight="520">Infrastructure &amp; Platform Engineer</text>
-    <text x="88" y="270" fill="#94A3B8" font-size="18" letter-spacing="0.5">KUBERNETES  ·  CI/CD  ·  OBSERVABILITY  ·  AUTOMATION</text>
+    <text x="88" y="270" fill="#94A3B8" font-size="17" letter-spacing="0.35">KUBERNETES  ·  BLOCKCHAIN NODES  ·  OBSERVABILITY  ·  AUTOMATION</text>
     <rect x="88" y="303" width="176" height="3" rx="1.5" fill="url(#accent)"/>
   </g>
 
